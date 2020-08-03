@@ -1,0 +1,91 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+
+    <!-- google font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- style sheet -->
+    <link rel="stylesheet" href="./signup.css" />
+    <title>Backroads || Signup</title>
+  </head>
+  <body>
+    <img src="./image/wavep.png" alt="" class="wave" />
+    <div class="container">
+      <div class="img">
+        <img src="./image/camping_noc8.svg" alt="" />
+      </div>
+      <div class="login_container">
+        <form action="" method="post">
+          <img src="./image/undraw_profile_pic_ic5t.svg" alt="" class="avtar" />
+          <h2>Create account</h2>
+          <div class="input_div one">
+            <div class="i">
+              <i class="fa fa-user" aria-hidden="true"></i>
+            </div>
+            <div>
+              <h5>Username</h5>
+              <input class="input" type="text" name="name" required />
+            </div>
+          </div>
+          <div class="input_div one">
+            <div class="i">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div>
+              <h5>Email Address</h5>
+              <input class="input" type="text" name="email" required />
+            </div>
+          </div>
+          <div class="input_div one">
+            <div class="i">
+              <i class="fas fa-phone-alt"></i>
+            </div>
+            <div>
+              <h5>Mobile Number</h5>
+              <input class="input" type="text" name="mobile" required />
+            </div>
+          </div>
+          <div class="input_div one">
+            <div class="i">
+              <i class="fa fa-lock"></i>
+            </div>
+            <div>
+              <h5>Create Password</h5>
+              <input class="input" type="password" name="password" required />
+            </div>
+          </div>
+          <div class="input_div one">
+            <div class="i">
+              <i class="fa fa-lock"></i>
+            </div>
+            <div>
+              <h5>Conform Password</h5>
+              <input class="input" type="password" name="cpassword" required />
+            </div>
+          </div>
+          <input
+            type="submit"
+            class="btn"
+            value="Create Account"
+            name="submit"
+          />
+          <h4>Have An Account ?</h4>
+          <a href="#">Login Now</a>
+        </form>
+      </div>
+    </div>
+    <script src="./signup.js"></script>
+  </body>
+</html>
